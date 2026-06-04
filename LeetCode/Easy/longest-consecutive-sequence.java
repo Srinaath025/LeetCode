@@ -1,4 +1,3 @@
-                continue;
             {
             if(arr[i]==arr[i-1])
         {
@@ -9,3 +8,4 @@
 
     public int longestConsecutive(int[] arr) {
 class Solution {
+        if(arr.length==1) return 1;
