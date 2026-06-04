@@ -12,13 +12,13 @@ class Solution {
         for(int i=1;i<=max;i++)
         {
             int r=0;
-            for(int j=1;j<piles.length;j++)
+            for(int j=0;j<piles.length;j++)
             {
                 r=r+(piles[j]+i-1)/i;
 
             }
 
-            if(r<=max) 
+            if(r<=h) 
             {
                 return i;
             }
