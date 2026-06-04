@@ -14,7 +14,7 @@ class Solution {
             int r=0;
             for(int j=1;j<piles.length;j++)
             {
-                r=r+(piles[j]-i-1)/i;
+                r=r+(piles[j]+i-1)/i;
 
             }
 
