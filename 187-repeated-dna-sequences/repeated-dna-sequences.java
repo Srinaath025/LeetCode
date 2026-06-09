@@ -5,14 +5,9 @@ class Solution {
         int n=s.length();
         for(int i=0;i<=n-10;i++)
         {
-            if(l.contains(s.substring(i,i+10)))
+            if(!l.add(s.substring(i,i+10)))
             {
                 l1.add(s.substring(i,i+10));
-            }
-
-            else
-            {
-            l.add(s.substring(i,i+10));
             }
         }
 
